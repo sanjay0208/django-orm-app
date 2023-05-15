@@ -37,10 +37,11 @@ class Employee (models.Model):
     email=models.EmailField()
 
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('eid','name','salary','age','email')  
+    list_display=('eid','name','salary','age','email')
+~~~
 
 Admin.py:
-
+~~~
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
