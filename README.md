@@ -48,7 +48,8 @@ admin.site.register(Employee,EmployeeAdmin)
 
 ~~~
 ## OUTPUT
-![django orm](https://github.com/sanjay0208/django-orm-app/assets/119406959/11d5b9dd-6426-49d8-b234-5d7dacbeda00)
+
+![DJANGO ORM (2)](https://github.com/sanjay0208/django-orm-app/assets/119406959/373de42e-338b-4571-a53c-c2df1fc53d1b)
 
 
 
